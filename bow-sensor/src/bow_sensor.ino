@@ -74,7 +74,7 @@ void loop() {
   if (counter == 0){
         Serial.println("\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n");
         Serial.print("Tilt:  "); Serial.print(RA_x.getAverage());
-        Serial.print("Straightness:  "); Serial.print(lis.z);
+        Serial.print("Straightness:  "); Serial.print(lis.y);
         Serial.print("  \tCalibrated Value of X:  "); Serial.print(calibratedY);
         Serial.print("  \tDistance From Calibration:  "); Serial.println(abs(abs(RA_x.getAverage()) - calibratedX));
   }
