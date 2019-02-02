@@ -19,7 +19,6 @@ uint32_t calibratedX = 0;
 uint32_t calibratedY = 0;
 uint32_t counter = 0;
 uint8_t  btnState = LOW;
-uint32_t BOW_DELTA = .20;
 
 RunningAverage RA_x(100);
 RunningAverage RA_y(100);
